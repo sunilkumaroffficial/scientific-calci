@@ -1,0 +1,50 @@
+//Exception Handling
+
+import java.util.Scanner;
+
+public class ExeptionTest {
+
+	    public static void main(String[] args){
+
+	        System.out.println("Welcom to Max Heart Rate Calculator");
+
+	        Scanner sc = new SCaneer(Sysytem.in);
+
+	        System.out.println("ENter your age: ");
+	        int age = sc.nextInt();
+
+	        int maxHeartRate = 220 - age;
+
+	        System.out.println("Your max heart rate is: " + maxHeartRate);
+	    }
+
+}
+
+
+//try and catch method
+
+import java.util.Scanner;
+
+public class ExeptionTest {
+
+	    public static void main(String[] args){
+	    	
+	    	try {
+	        System.out.println("Welcom to Max Heart Rate Calculator");
+
+	        Scanner sc = new SCaneer(Sysytem.in);
+
+	        System.out.println("ENter your age: ");
+	        int age = sc.nextInt();
+
+	        int maxHeartRate = 220 - age;
+
+	        System.out.println("Your max heart rate is: " + maxHeartRate);
+	    } catch(InputMismtachException e){
+	    	
+	    	System.out.println("Please entre Integer only: ");
+	    	
+	    }
+	 }
+
+}
